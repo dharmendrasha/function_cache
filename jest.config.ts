@@ -13,6 +13,8 @@ export default async (): Promise<Config> => {
     rootDir,
     coverageDirectory: coverageDir,
     verbose: true,
+    collectCoverage: true,
+    setupFilesAfterEnv: [path.resolve(__dirname, "./test/jest.setup.ts")],
     moduleFileExtensions: ["js", "json", "ts"],
     testRegex: ".*\\.spec\\.ts$",
     transform: {
