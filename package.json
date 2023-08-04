@@ -1,6 +1,6 @@
 {
   "name": "@dharmendrasha/function_cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manages and records the outgoing records from nodejs application.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
